@@ -15,7 +15,7 @@ public class DefaultController {
 	@RequestMapping(value = "/", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	@Timed
 	public ResponseEntity<String> helloWorld() {
-		return new ResponseEntity<>("Hello !! this is Jx managed spring boot sample app ", HttpStatus.OK);
+		return new ResponseEntity<>("Hello!! this is Jx managed spring boot sample app ", HttpStatus.OK);
 	}
 
 }
